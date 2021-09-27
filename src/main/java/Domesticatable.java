@@ -6,3 +6,8 @@ interface Domesticatable {
      **/
     String sound();
 }
+class dome implements Domesticatable {
+    public String sound() {
+        return "no sound";
+    }
+}

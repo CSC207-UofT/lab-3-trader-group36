@@ -17,3 +17,5 @@ interface Drivable {
      **/
     int getMaxSpeed();
 }
+abstract class drive implements Drivable {
+    }

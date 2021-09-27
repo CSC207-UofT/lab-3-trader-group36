@@ -42,5 +42,10 @@ public class HorseTest {
     public void TestGetPrice() {
         assertEquals(10, h.getPrice());
     }
+    @Test(timeout = 50)
+    public void TestanotherUpgradeSpeed() {
+        h.upgradeSpeed();
+        assertEquals(3, h.getMaxSpeed());
+    }
 
 }
